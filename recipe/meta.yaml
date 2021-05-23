@@ -73,6 +73,7 @@ extra:
   recipe-maintainers:
     - ihnorton
     - shelnutt2
+    - conda-forge/r
 
 # The original CRAN metadata for this package was:
 
