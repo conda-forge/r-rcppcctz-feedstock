@@ -1,4 +1,4 @@
-{% set version = "0.2.9" %}
+{% set version = "0.2.10" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppCCTZ_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppCCTZ/RcppCCTZ_{{ version }}.tar.gz
-  sha256: 723f45eca1be08903234e339523daca35748fe65c1a9d59afcb583d3a17bcaae
+  sha256: 3a78188ec771270c87d5ccb8237506adac1827220c694df2f683f64002e2444a
 
 build:
   merge_build_host: true  # [win]
   # If this is a new build for the same version, increment the build number.
-  number: 1
+  number: 0
   # no skip
 
   # This is required to make R link correctly on Linux.
