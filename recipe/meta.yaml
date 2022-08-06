@@ -1,4 +1,4 @@
-{% set version = "0.2.10" %}
+{% set version = "0.2.11" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppCCTZ_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppCCTZ/RcppCCTZ_{{ version }}.tar.gz
-  sha256: 3a78188ec771270c87d5ccb8237506adac1827220c694df2f683f64002e2444a
+  sha256: 5ca66403493fc3aa966eaa7897e18b988af7c5efd58ffa1b9b81dc103319ff6e
 
 build:
   merge_build_host: true  # [win]
