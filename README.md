@@ -3,20 +3,22 @@ About r-rcppcctz-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppcctz-feedstock/blob/main/LICENSE.txt)
 
+
 About r-rcppcctz
 ----------------
 
-Home: https://github.com/eddelbuettel/rcppcctz
+Home: https://github.com/eddelbuettel/rcppcctz, https://dirk.eddelbuettel.com/code/rcpp.cctz.html
 
-Package license: GPL-2.0-or-later
+Package license: GPL-2.0-only
 
 Summary: 'Rcpp' Access to the 'CCTZ' timezone library is provided. 'CCTZ' is a C++ library for translating between absolute and civil times using the rules of a time zone. The 'CCTZ' source code, released under the Apache 2.0 License, is included in this package. See <https://github.com/google/cctz> for more details.
+
 About r-rcppcctz
 ----------------
 
-Home: https://github.com/eddelbuettel/rcppcctz
+Home: https://github.com/eddelbuettel/rcppcctz, https://dirk.eddelbuettel.com/code/rcpp.cctz.html
 
-Package license: GPL-2.0-or-later
+Package license: GPL-2.0-only
 
 Summary: 'Rcpp' Access to the 'CCTZ' timezone library is provided. 'CCTZ' is a C++ library for translating between absolute and civil times using the rules of a time zone. The 'CCTZ' source code, released under the Apache 2.0 License, is included in this package. See <https://github.com/google/cctz> for more details.
 
@@ -195,7 +197,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -245,5 +247,6 @@ Feedstock Maintainers
 
 * [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@ihnorton](https://github.com/ihnorton/)
+* [@jdblischak](https://github.com/jdblischak/)
 * [@shelnutt2](https://github.com/shelnutt2/)
 
