@@ -47,7 +47,7 @@ test:
 
 about:
   home: https://github.com/eddelbuettel/rcppcctz, https://dirk.eddelbuettel.com/code/rcpp.cctz.html
-  license: GPL-2.0-only
+  license: GPL-2.0-or-later
   summary: '''Rcpp'' Access to the ''CCTZ'' timezone library is provided. ''CCTZ'' is a C++ library
     for translating between absolute and civil times using the rules of a time zone.
     The ''CCTZ'' source code, released under the Apache 2.0 License, is included in
