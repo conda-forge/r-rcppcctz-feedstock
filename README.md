@@ -9,7 +9,7 @@ About r-rcppcctz
 
 Home: https://github.com/eddelbuettel/rcppcctz, https://dirk.eddelbuettel.com/code/rcpp.cctz.html
 
-Package license: GPL-2.0-only
+Package license: GPL-2.0-or-later
 
 Summary: 'Rcpp' Access to the 'CCTZ' timezone library is provided. 'CCTZ' is a C++ library for translating between absolute and civil times using the rules of a time zone. The 'CCTZ' source code, released under the Apache 2.0 License, is included in this package. See <https://github.com/google/cctz> for more details.
 
@@ -18,7 +18,7 @@ About r-rcppcctz
 
 Home: https://github.com/eddelbuettel/rcppcctz, https://dirk.eddelbuettel.com/code/rcpp.cctz.html
 
-Package license: GPL-2.0-only
+Package license: GPL-2.0-or-later
 
 Summary: 'Rcpp' Access to the 'CCTZ' timezone library is provided. 'CCTZ' is a C++ library for translating between absolute and civil times using the rules of a time zone. The 'CCTZ' source code, released under the Apache 2.0 License, is included in this package. See <https://github.com/google/cctz> for more details.
 
@@ -40,13 +40,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9765&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9765&branchName=main">
@@ -54,10 +47,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_r_base4.2</td>
+              <td>linux_64_r_base4.4</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9765&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.4" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -68,10 +61,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_r_base4.2</td>
+              <td>linux_aarch64_r_base4.4</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9765&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_r_base4.4" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -82,10 +75,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.2</td>
+              <td>linux_ppc64le_r_base4.4</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9765&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_r_base4.4" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -96,10 +89,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_r_base4.2</td>
+              <td>osx_64_r_base4.4</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9765&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.4" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -110,10 +103,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64</td>
+              <td>osx_arm64_r_base4.4</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9765&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.4" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9765&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=win&configuration=win%20win_64_r_base4.3" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_r_base4.4</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9765&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppcctz-feedstock?branchName=main&jobName=win&configuration=win%20win_64_r_base4.4" alt="variant">
                 </a>
               </td>
             </tr>
